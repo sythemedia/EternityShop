@@ -11,7 +11,7 @@ switch (session_status()):
 		// No action needed
 		break;
 endswitch;
-define('IN_ETERNITY_SHOP', TRUE);
+define('IN_ETERNTIY_SHOP', TRUE);
 require_once dirname(__DIR__) . '/config.php';
 $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME, is_null(DB_PORT) ? ini_get("mysqli.default_port") : DB_PORT, is_null(DB_SOCK) ? ini_get("mysqli.default_socket") : DB_SOCK);
 if ($mysqli === FALSE)
