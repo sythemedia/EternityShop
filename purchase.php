@@ -1,10 +1,6 @@
 
 <?php
 
-register_shutdown_function(function()
-{
-	echo '</pre>';
-});
 require_once __DIR__ . '/includes/index.php';
 if (!isset($_GET['item']))
 {
